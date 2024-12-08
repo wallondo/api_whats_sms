@@ -1,0 +1,24 @@
+{
+  "name": "what_api",
+  "version": "1.0.0",
+  "type":"module",
+  "description": "minha api para envio de sms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node gmail.js"
+  },
+  "keywords": [
+    "api",
+    "whatzap"
+  ],
+  "author": "quinguri",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemailer": "^6.9.16",
+    "puppeteer": "^23.9.0",
+    "wbm": "^1.1.16"
+  }
+}
